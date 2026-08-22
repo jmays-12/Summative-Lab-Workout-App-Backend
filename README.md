@@ -56,13 +56,14 @@ The API will run at `http://localhost:5555`
 * `POST /exercises` - Create an exercise
 * `DELETE /exercises/<id>` - Delete an exercise
 
-### Add Exercise to Workout
-
-* `POST /workouts/<workout_id>/exercises/<exercise_id>/workout_exercises` - Add an exercise to a workout with reps, sets, or duration
-
-## Exercise Categories
+## Valid Exercise Categories
 
 * `cardio`
 * `strength`
 * `flexibility`
 * `balance`
+
+### Add Exercise to Workout
+
+* `POST /workouts/<workout_id>/exercises/<exercise_id>/workout_exercises` - Add an exercise to a workout with reps, sets, or duration
+
