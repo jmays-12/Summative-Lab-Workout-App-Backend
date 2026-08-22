@@ -22,7 +22,7 @@ flask db init
 flask db migrate -m "Initial migration"
 flask db upgrade head
 ```
-Add sample data:
+    Add sample data:
 ```bash
 python seed.py
 ```
