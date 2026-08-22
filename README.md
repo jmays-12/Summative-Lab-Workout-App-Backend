@@ -2,8 +2,6 @@
 
 A simple REST API for tracking workouts and exercises.
 
-## What It Does
-
 This API lets you:
 - Create and manage workouts
 - Create and manage exercises
@@ -17,20 +15,19 @@ pipenv install
 pipenv shell
 ```
 
-2. Set up the database:
+2. Database template and seed data is included, but in case you want to recreate it use the following steps:
 ```bash
 export FLASK_APP=app.py
 flask db init
-flask db migrate -m "initial migration"
+flask db migrate -m "Initial migration"
 flask db upgrade head
 ```
-
-3. Add sample data:
+Add sample data:
 ```bash
 python seed.py
 ```
 
-4. Start the server:
+3. Start the server:
 ```bash
 python app.py
 ```
