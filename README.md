@@ -39,13 +39,6 @@ python app.py
 
 The API will run at `http://localhost:5555`
 
-## Running Tests
-
-From the project root:
-
-```bash
-pytest
-```
 
 ## API Endpoints
 
