@@ -22,12 +22,12 @@ flask db init
 flask db migrate -m "Initial migration"
 flask db upgrade head
 ```
-    Add sample data:
+3. Add sample data:
 ```bash
 python seed.py
 ```
 
-3. Start the server:
+4. Start the server:
 ```bash
 python app.py
 ```
